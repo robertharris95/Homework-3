@@ -57,7 +57,37 @@ var random = possible[Math.floor(Math.random() * possible.length)];
 
 // Password Generation
 
+// Button press activates the function 
 
-//Password Display
- var password = document.getElementbbyId(password);
-password.innerHTML = 
+function generatePassword(){
+  //User Preference Alerts
+  var usenum = confirm("Would you like to include numbers?")
+  var usesym = confirm("Would you like to include special characters?")
+  var useupp = confirm("Would you like to include Uppercase Letters?")
+  var uselow = confirm("Would you like to include lowercase letters?")
+  var long = prompt("How many characters would you like to include in your password? (8-128) ")
+
+
+
+  //Length Loop
+  for(i = 0; i <= parseInt(long); i++ ){
+    //User preference loops
+
+    if(usenum === true){
+
+    }
+    else if(usesym === true){
+
+    }
+
+    else if(useupp === true){
+
+    }
+
+    else if(uselow === true){
+
+    }
+
+  }
+}
+
