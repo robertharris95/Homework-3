@@ -139,6 +139,7 @@ function generatePassword(){
       var Display = document.querySelectorAll("p")
 
       Display[0].textContent= random
+      Display[0].setAttribute("value", random)
 
       // Resets back to empty to facilitate rerolling passwords
 
@@ -151,3 +152,4 @@ function generatePassword(){
     alert("Please try again, must be between 8 and 128 characters.")
   }
 }
+
